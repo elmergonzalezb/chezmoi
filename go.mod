@@ -52,3 +52,6 @@ require (
 	gopkg.in/ini.v1 v1.55.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8
 )
+
+// Temporary while waiting for https://github.com/go-git/go-git/pull/46 to be merged.
+replace github.com/go-git/go-git/v5 => github.com/twpayne/go-git/v5 v5.0.2
